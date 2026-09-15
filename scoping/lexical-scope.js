@@ -9,7 +9,7 @@ function outer() {
   inner();
 }
 outer();
-// Predicted: Zenith ✅ Got it right inner() is written INSIDE outer(), so it can see outer()'s variables automatically.
+// Predicted: Zenith ✅ Got it right inner() wass written INSIDE outer(), so it can see outer()'s variables automatically.
 
 // 2. SHADOWING
 let x = "outer";
@@ -19,7 +19,7 @@ function show() {
 }
 show();
 console.log(x);
-// Predicted: different values ✅ Got it right
+// Predicted: different values would be  loggged and  got it right
 // Logs: "inner" then "outer" The inner x and outer x are two separate variables that just share a name. The inner one temporarily hides the outer one, but only while inside that function.
 
 // 3. WHERE IT'S WRITTEN, NOT WHERE IT'S CALLED
