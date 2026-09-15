@@ -77,7 +77,7 @@ repeatAction(3, function (num) {
 // the parameter name catching whatever function gets passed in, same
 // as `fn` did in the earlier examples.
 
-// 5. 
+// 5.
 function processNumbers(limit, action) {
   for (let i = 1; i <= limit; i++) {
     action(i);
